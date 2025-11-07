@@ -95,8 +95,8 @@ const QuizApp = () => {
                     if (Sport2 === correctSport2) correctNum=correctNum+1;
                     if (Sport3 === correctSport3) correctNum=correctNum+1;
 
-                    if (correctNum === null){
-                        Alert.alert('Error. Please try again.')
+                    if (correctNum === 0){
+                        Alert.alert('You have 0 correct. Give it another try!')
                     }
                     else if (correctNum === 1){
                         Alert.alert('You have 1 correct. You can do better!')
